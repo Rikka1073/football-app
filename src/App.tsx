@@ -63,14 +63,14 @@ function App() {
           return (
             <Box key={team.id}>
               {team.name === displayTeams && (
-                <Box>
-                  <Box>{team.name}</Box>
-                  <Box>{team.coach.name}</Box>
-                  <Box>
+                <Box mt="10">
+                  <Box mt="10">{team.name}</Box>
+                  <Box mt="10">{team.coach.name}</Box>
+                  <Box mt="10">
                     <Image src={team.crest} boxSize="2xs" />
                   </Box>
                   <Box>
-                    <TableContainer>
+                    <TableContainer mt="10">
                       <NativeTable>
                         <Thead>
                           <Tr>
