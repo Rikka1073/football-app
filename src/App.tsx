@@ -1,13 +1,10 @@
 import {
   Box,
-  Button,
   Image,
-  NativeImage,
   NativeTable,
   TableContainer,
   Tbody,
   Td,
-  Tfoot,
   Th,
   Thead,
   Tr,
